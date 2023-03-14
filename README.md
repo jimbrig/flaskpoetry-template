@@ -1,5 +1,7 @@
 # Flask Application Template
 
+[![PublishDocs](https://github.com/jimbrig/flaskpoetry-template/actions/workflows/docs.yml/badge.svg)](https://github.com/jimbrig/flaskpoetry-template/actions/workflows/docs.yml)
+
 ## Design Decisions
 
 - Use [poetry](https://python-poetry.org/) as primary dependency manager and

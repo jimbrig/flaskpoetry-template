@@ -1,34 +1,33 @@
 # "Use Log4brains to manage the ADRs"
 
-- Status: [draft | proposed | rejected | accepted | deprecated | … | superseded by [xxx](yyyymmdd-xxx.md)] <!-- optional -->
-- Deciders: [list everyone involved in the decision] <!-- optional -->
-- Date: [YYYY-MM-DD when the decision was last updated] <!-- optional. To customize the ordering without relying on Git creation dates and filenames -->
-- Tags: [space and/or comma separated list of tags] <!-- optional -->
+- Status: Accepted
+- Deciders: Jimmy Briggs
+- Date: 2023-03-14
+- Tags: Documentation, Architecture, Descisions, Logs, Techinical, Tool
 
-Technical Story: [description | ticket/issue URL] <!-- optional -->
+Technical Story: Architecture Descision Record Logging Tool (ACR): `Log4brains`
 
 ## Context and Problem Statement
 
-[Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question.]
+Need a mechanism to document decisions made related to infrastructure,
+technical design, tooling, and design patterns.
 
-## Decision Drivers <!-- optional -->
+## Decision Drivers
 
-- [driver 1, e.g., a force, facing concern, …]
-- [driver 2, e.g., a force, facing concern, …]
-- … <!-- numbers of drivers can vary -->
+- Easy to Use
+- Runs in CI/CD Pipeline
+- Automated Deployments
+- Automated ADR CLI Tool
 
 ## Considered Options
 
-- [option 1]
-- [option 2]
-- [option 3]
-- … <!-- numbers of options can vary -->
+- Manual
 
 ## Decision Outcome
 
-Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
+Chosen option: `log4brains` (`npm` CLI package) with GitHub Actions.
 
-### Positive Consequences <!-- optional -->
+### Positive Consequences
 
 - [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
 - …

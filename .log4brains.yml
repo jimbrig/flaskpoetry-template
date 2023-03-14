@@ -1,0 +1,5 @@
+project:
+  name: flasktemplate
+  tz: America/New_York
+  adrFolder: ./docs/adr
+  packages: []
